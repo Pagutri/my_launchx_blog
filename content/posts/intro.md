@@ -20,3 +20,5 @@ Aún no soy una desarrolladora profesional. Si todo sale bien, estoy cerca de da
 2. Disposición por meterse a fondo a conocer las tecnologías que se manejan.
 3. No tener miedo a equivocarse ni a regarla.
 4. Compartir, enseñar, comunicar, aprender, volver a compartir.
+5. Que se rolen el swag.
+6. Que se rolen las configuraciones de sus terminales chidas.

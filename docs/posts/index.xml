@@ -18,13 +18,14 @@ Los valores de cualquier grupo de gente que se reúne a compartir lo que le gust
     </item>
     
     <item>
-      <title>La cultura en el desarrollo de software</title>
+      <title>Mi ruta de aprendizaje</title>
       <link>https://pagutri.github.io/my_launchx_blog/posts/post_01/</link>
       <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://pagutri.github.io/my_launchx_blog/posts/post_01/</guid>
-      <description>Aún no soy una desarrolladora profesional. Si todo sale bien, estoy cerca de dar ese salto. Pero el mundo de la programación me ha atraído desde hace mucho mucho tiempo y una razón muy importante es su cultura. Quiero dividir las cosas que aprecio de esta cultura en dos partes: las que no son exclusivas de la programación y las que sí.
-Los valores de cualquier grupo de gente que se reúne a compartir lo que le gusta  Que cada persona que recién llega al grupo se sienta incluida y bienvenida.</description>
+      <description>Empecemos por el contexto: ¿Qué es Launch X?
+Hace dos años, Microsoft creó Innovacción Virtual, un programa masivo y gratuito de capacitación en tecnología para México, con el fin de ayudar a cubrir la demanda de talento humano para la industria. En ciclos de tres o cuatro meses de duración, han certificado a más de diez mil personas en el uso de Azure, la nube de Microsoft.
+En febrero de este año, Innovacción Virtual lanzó Launch X, ahora enfocado en formar desarrolladores fullstack en tres meses.</description>
     </item>
     
   </channel>

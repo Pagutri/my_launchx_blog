@@ -4,7 +4,12 @@ date: 2022-04-09
 description: 'Este es mi primer post de la travesía en la Misión de Backend con Node JS de Launch X.'
 ---
 
-Aún no soy una desarrolladora profesional. Si todo sale bien, estoy cerca de dar ese salto. Pero el mundo de la programación me ha atraído desde hace mucho mucho tiempo y una razón muy importante es su cultura. Quiero dividir las cosas que aprecio de esta cultura en dos partes: las que no son exclusivas de la programación y las que sí.
+Aún no soy una desarrolladora profesional.
+Si todo sale bien, estoy cerca de dar ese salto.
+Pero el mundo de la programación me ha atraído desde hace mucho mucho tiempo
+y una razón muy importante es su cultura.
+Quiero dividir las cosas que aprecio de esta cultura en dos partes:
+las que no son exclusivas de la programación y las que sí.
 
 ## Los valores de cualquier grupo de gente que se reúne a compartir lo que le gusta
 

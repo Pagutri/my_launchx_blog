@@ -7,15 +7,20 @@ menu:
 
 ## Who am I
 
-Hola, aquí vas a leer un poco sobre mi 🤩
+Hola, aquí vas a leer un poco sobre mí 🤩
 
-> Excidit gente, si orat suo quaeque dura Calydon nata? Pars auro post stetit
-> adfusique imis amplexus. Agmina per fabricator
-> mittere Erymanthon habetque tot.
+Me llamo Salma, o Pato o Pagutri. Tengo 26 años.
+Estudié física y doy clases de matemáticas, inglés y programación.
 
-**Cineres Nile ipsa** origine discurrunt adest Unde, et quem clausus, imo,
-virens quoque tales, potuit. Ingentes insilit corpore nutricis praebebat roganti
-licuit. Denique a vestros adulantum in bella lina parte et arte generi di igitur
-quis, digitis pedes. Cum resonant tamen, namque in anxia. Non nostri trahens
-ancora.
+Empecé a programar en preparatoria, gracias a la olimpiada de informática.
+Lo primero que aprendí fue a usar Karel y después C. El primer concepto
+*profundo* que aprendí es que mis programas de computadora hacían cosas
+aunque no les pidiera imprimir nada 😲
 
+Me gusta la música de violonchelo. Es un instrumento que ruge y llora y ríe.
+El año pasado tuve un trabajo que me permitió comprarme uno. Le puse Mariano
+Zambra por mis dos escritores favoritos: Mariana Enriquez y Alejandro Zambra.
+Lo malo es que no me renovaron el contrato y ahora no puedo pagar las clases
+para aprender a tocarlo :v [Pero por eso estoy en Launch X jaja.](https://pagutri.github.io/my_launchx_blog/posts/post_01/)
+
+Soy fan de Relatos de la Noche y de las Historias de Ultratumbísima de Sailorfag.

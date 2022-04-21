@@ -46,6 +46,7 @@ frena los péndulos. En nuestro modelo, no vamos a tomar en cuenta nada de eso.
 
 La siguiente imagen muestra todos los nombres que vamos a utilizar en el siguiente
 paso:
+
 <br><a href="https://ibb.co/jZ6Hmjy"><img src="https://i.ibb.co/Cs1WgSb/nombres.jpg" alt="nombres" border="0" height="200"></a>
 
 
@@ -66,6 +67,7 @@ doble todo se duplica: tenemos dos ángulos y necesitamos dos ecuaciones. Son la
 siguientes:
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\ddot\theta=-\frac{g}{l}\sin\theta-\frac{1}{2}\dot\phi^2\sin(\theta-\phi)-\frac{1}{2}\ddot\phi\cos(\theta-\phi))
+
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\ddot\phi=-\frac{g}{l}\sin\phi+\dot\theta^2\sin(\theta-\phi)-\ddot\theta\cos(\theta-\phi))
 
 Un puntito arriba de un ángulo significa *primera derivada*. Dos puntitos, *segunda

@@ -70,19 +70,20 @@ siguientes:
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\ddot\phi=-\frac{g}{l}\sin\phi+\dot\theta^2\sin(\theta-\phi)-\ddot\theta\cos(\theta-\phi))
 
-Un puntito arriba de un ángulo significa *primera derivada*. Dos puntitos, *segunda
-derivada*. Las ecuaciones que incluyen derivadas se llaman **ecuaciones diferenciales**.
-Con esto ya pueden avanzar al paso 3 que explica cómo resolverlas por computadora.
-También pueden quedarse en este paso para ver (más o menos) de dónde salieron estas
-fórmulas.
+**g** es la aceleración de la gravedad. Un puntito arriba de un ángulo significa 
+*primera derivada*. Dos puntitos, *segunda derivada*. Las ecuaciones que incluyen 
+derivadas se llaman **ecuaciones diferenciales**. Con esto ya puedes ignorar la
+siguiente sección y avanzar directamente al paso 3 que explica cómo resolverlas
+por computadora.
 
-### Paso 2.1. Escribir el Lagrangiano del sistema
+## ¿De dónde salieron esas fórmulas?
 
-### Paso 2.2. Escribir las derivadas
+De mi corazón 🫀. Bueno,
 
-### Paso 2.3. Sustituir en las ecuaciones de Euler-Lagrange
+Vienen de aplicar algo llamado "formulación de Lagrange de la mecánica clásica". 
+Toda la física detrás de esta formulación puede encontrarse en el
+[libro de mecánica clásica de Thornton y Marion](https://www.amazon.com/Classical-Dynamics-Particles-Systems-Thornton/dp/0534408966).
 
-### Paso 2.4. Despejar las segundas derivadas
 
 # Paso 3. Resolver las ecuaciones de movimiento
 ## Dos señores alemanes llamados Runge y Kutta

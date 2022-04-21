@@ -46,7 +46,7 @@ frena los péndulos. En nuestro modelo, no vamos a tomar en cuenta nada de eso.
 
 La siguiente imagen muestra todos los nombres que vamos a utilizar en el siguiente
 paso:
-![Diagrama del péndulo](nombres.jpg)
+![Diagrama del péndulo](https://drive.google.com/file/d/1QEnwo2iBeX8rDTQpSl6SQM7cKTx-tyxx/view?usp=sharing)
 
 
 # Paso 2. Encontrar las ecuaciones de movimiento

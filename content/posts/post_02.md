@@ -46,11 +46,40 @@ frena los péndulos. En nuestro modelo, no vamos a tomar en cuenta nada de eso.
 
 La siguiente imagen muestra todos los nombres que vamos a utilizar en el siguiente
 paso:
-<br><a href="https://ibb.co/jZ6Hmjy"><img src="https://i.ibb.co/Cs1WgSb/nombres.jpg" alt="nombres" border="0" height="300"></a>
+<br><a href="https://ibb.co/jZ6Hmjy"><img src="https://i.ibb.co/Cs1WgSb/nombres.jpg" alt="nombres" border="0" height="200"></a>
 
 
 # Paso 2. Encontrar las ecuaciones de movimiento
 ## ¿En dónde va a estar la bolita en cada instante de tiempo?
+
+Una ecuación de movimiento es una fórmula matemática que te dice dónde va a estar
+una partícula en cada instante de tiempo. El ejemplo más simple es el de una partícula
+que se mueve en línea recta a velocidad constante **v**. Si en el segundo **t = 0**
+la partícula se encuentra en la posición **x = 0**, la fórmula es **x = vt**. O sea que si
+quieres saber dónde va a estar la partícula cuando transcurran 10 segundos, sólo hay
+que multiplicar 10 por la velocidad y listo. 
+
+En el caso de un péndulo, es más fácil usar una sola ecuación que nos diga el ángulo
+que la cuerda forma con la vertical en cada instante de tiempo en lugar de dos 
+ecuaciones que nos den las coordenadas en **x** y en **y**. En el caso del péndulo
+doble todo se duplica: tenemos dos ángulos y necesitamos dos ecuaciones. Son las
+siguientes:
+
+
+
+Un puntito arriba de un ángulo significa *primera derivada*. Dos puntitos, *segunda
+derivada*. Las ecuaciones que incluyen derivadas se llaman **ecuaciones diferenciales**.
+Con esto ya pueden avanzar al paso 3 que explica cómo resolverlas por computadora.
+También pueden quedarse en este paso para ver (más o menos) de dónde salieron estas
+fórmulas.
+
+### Paso 2.1. Escribir el Lagrangiano del sistema
+
+### Paso 2.2. Escribir las derivadas
+
+### Paso 2.3. Sustituir en las ecuaciones de Euler-Lagrange
+
+### Paso 2.4. Despejar las segundas derivadas
 
 # Paso 3. Resolver las ecuaciones de movimiento
 ## Dos señores alemanes llamados Runge y Kutta

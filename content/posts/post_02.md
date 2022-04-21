@@ -66,6 +66,7 @@ doble todo se duplica: tenemos dos ángulos y necesitamos dos ecuaciones. Son la
 siguientes:
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\ddot\theta=-\frac{g}{l}\sin\theta-\frac{1}{2}\dot\phi^2\sin(\theta-\phi)-\frac{1}{2}\ddot\phi\cos(\theta-\phi))
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;\ddot\phi=-\frac{g}{l}\sin\phi+\dot\theta^2\sin(\theta-\phi)-\ddot\theta\cos(\theta-\phi))
 
 Un puntito arriba de un ángulo significa *primera derivada*. Dos puntitos, *segunda
 derivada*. Las ecuaciones que incluyen derivadas se llaman **ecuaciones diferenciales**.

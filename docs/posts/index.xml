@@ -8,12 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://pagutri.github.io/my_launchx_blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cómo programar un péndulo doble con Python</title>
+      <title>Cómo programar un péndulo doble con javascript</title>
       <link>https://pagutri.github.io/my_launchx_blog/posts/post_02/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://pagutri.github.io/my_launchx_blog/posts/post_02/</guid>
-      <description>Post en proceso.</description>
+      <description>Hoy les quiero presentar el que fue mi proyecto final de la materia de métodos numéricos en la universidad. Disfruté mucho haciéndolo. Creo que es un bonito ejemplo del proceso que hay que seguir a la hora de pasar de la teoría en papel al código.
+Sería muy largo explicar el por qué de cada cachito de conocimiento utilizado en este proyecto. Lo que quiero con este post es que por lo menos se den una idea de cuáles serían los pasos a seguir si quisieran hacer algo similar.</description>
     </item>
     
     <item>

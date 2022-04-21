@@ -37,8 +37,16 @@ simples arcos de circunferencia al moverse. El segundo péndulo, el de abajo, tr
 lo que en México conocemos como un desmadre. Por eso (spoiler alert) sus ecuaciones
 de movimiento son tan complicadas.
 
-En la vida real, las cuerdas pesan, se curvan, se estiran y se desgastan. Pero para
-hacernos la vida más fácil, vamos a suponer que no.
+## Poner nombres y hacer suposiciones
+
+Una cosa es un péndulo real y otra es *el modelo de un péndulo*. En un modelo,
+hacemos suposiciones para que todo sea más fácil de estudiar. En la vida real,
+las cuerdas pesan, se curvan, se expanden y se desgastan, y la fricción con el aire
+frena los péndulos. En nuestro modelo, no vamos a tomar en cuenta nada de eso.
+
+La siguiente imagen muestra todos los nombres que vamos a utilizar en el siguiente
+paso:
+
 
 # Paso 2. Encontrar las ecuaciones de movimiento
 ## ¿En dónde va a estar la bolita en cada instante de tiempo?

@@ -21,4 +21,32 @@ Para el péndulo doble tal vez también hay métodos más sencillos, pero este e
 
 ¡Comencemos!
 
+# Paso 1. Definir el sistema
+## ¿Qué es un péndulo doble?
+Un peńdulo simple es cualquier objeto colgando de una cuerda, moviéndose en un
+sólo plano (es decir, de izquierda a derecha y de abajo hacia arriba, pero no de
+atrás hacia adelante) por efecto de la gravedad. Aquí hay un gif que lo muestra:
+![Gif de un péndulo simple](http://www.netanimations.net/Moving-animated-clip-art-picture-of-pendulum-x-bpm-1.gif)
 
+Un péndulo doble son dos péndulos simples pegados uno al final del otro, como en
+el siguiente gif:
+![Gif de un péndulo doble](https://revolution-computing.typepad.com/.a/6a010534b1db25970b0192aa7aa4a6970d-pi)
+
+En el gif anterior, podemos ver que el primer péndulo simple, el de arriba, traza
+simples arcos de circunferencia al moverse. El segundo péndulo, el de abajo, traza
+lo que en México conocemos como un desmadre. Por eso (spoiler alert) sus ecuaciones
+de movimiento son tan complicadas.
+
+En la vida real, las cuerdas pesan, se curvan, se estiran y se desgastan. Pero para
+hacernos la vida más fácil, vamos a suponer que no.
+
+# Paso 2. Encontrar las ecuaciones de movimiento
+## ¿En dónde va a estar la bolita en cada instante de tiempo?
+
+# Paso 3. Resolver las ecuaciones de movimiento
+## Dos señores alemanes llamados Runge y Kutta
+
+# Paso 4. Hacer la animación
+## Cómo utilizar Processing.js
+
+# Bonus. Sistemas dinámicos

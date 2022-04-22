@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Aprendiendo Processing.js - Bitácora de Viaje de Pagutri</title>
+  <title>Aprendiendo Processing - Bitácora de Viaje de Pagutri</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="https://pagutri.github.io/my_launchx_blog/favicon.png">
 
@@ -14,12 +14,12 @@
   
 
   
-    <meta name="description" content="Cómo dibujar rayas y bolitas en Processing y hacer que se muevan. Rayas y bolitas perfectas, sin masa ni fricción. El sueño de todx físicx 😃"/>
-    <meta property="og:title" content="Aprendiendo Processing.js"/>
+    <meta name="description" content="Cómo dibujar rayas y bolitas en Processing y hacer que se muevan."/>
+    <meta property="og:title" content="Aprendiendo Processing"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://pagutri.github.io/my_launchx_blog/posts/post_03/"/>
     
-    <meta property="og:description" content="Cómo dibujar rayas y bolitas en Processing y hacer que se muevan. Rayas y bolitas perfectas, sin masa ni fricción. El sueño de todx físicx 😃"/>
+    <meta property="og:description" content="Cómo dibujar rayas y bolitas en Processing y hacer que se muevan."/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@soytupadra"/>
     <meta name="twitter:creator" content="@soytupadra"/>
@@ -55,7 +55,7 @@
   <div class="blog">
     
     <div class="intro">
-      <h1>Aprendiendo Processing.js<span class="dot">.</span></h1>
+      <h1>Aprendiendo Processing<span class="dot">.</span></h1>
       
     </div>
     <div class="content">
@@ -68,10 +68,36 @@ que decidí hacer lo que mejor estoy aprendiendo gracias a NODE: modularizar el 
 La idea es explicar, en este primer post, cómo usar Processing. Después escribir uno
 donde explique cómo usarlo para simular sistemas físicos simples y, finalmente, uno
 donde explique cómo simular un péndulo doble, que usa unas ecuaciones bien salvajes.</p>
-<h2 id="qué-es-processing">¿Qué es Processing?</h2>
+<h3 id="qué-es-processing">¿Qué es Processing?</h3>
 <p>Processing es una aplicación que te permite hacer sketches de animaciones 2D con
-código. Es gratuita y open source. Originalmente, código de javascript, pero ahora también acepta Python.
-<a href="https://processing.org/">Ésta es su página oficial</a>.</p>
+código. Es gratuita y open source. Para aprender a instalarlo y usarlo, puedes ir a su
+<a href="https://processing.org/">página oficial</a>.</p>
+<h3 id="básicos-de-processing">Básicos de Processing</h3>
+<p>Un programa de Processing tiene dos funciones principales: <code>setup()</code> y <code>draw()</code>. Tú las
+defines. La función <code>setup()</code> corre una sola vez, al iniciar el programa. Allí puedes
+definir el tamaño de la ventana donde podrás visualizar tu animación, por ejemplo.
+Por su parte, <code>draw()</code> corre continuamente. ¿Por qué?</p>
+<p>Piensa en cómo funcionan las cámaras de video. En realidad son cámaras de fotos súper
+rápidas. Toman unas 24 fotos por segundo y, al mostrarlas una detrás de la otra a la
+misma velocidad, dan la ilusión de movimiento. La función <code>draw()</code> funciona algo así.
+En ella programas cómo van a moverse tus dibujitos, y cada nueva corrida es como una
+nueva foto.</p>
+<p><a href="https://processing.org/reference/">Aquí</a> puedes ver todas las funciones disponibles
+en Processing, separadas por categorías. En este post, vamos a utilizar las que
+aparecen como <strong>2D Primitives</strong>.</p>
+<h3 id="armar-el-setup">Armar el setup</h3>
+<p>El siguiente código abre una ventana de 500 pixeles de largo por 200 pixeles de alto
+y le pone un fondo color <em>Middle Blue Green</em>, que me gusta mucho. La paleta de colores
+que voy a usar aquí la tomé de <a href="https://coolors.co/ccdbdc-80ced7-63c7b2-8e6c88-263d42">esta página</a>.
+Para pasar de código hex a RGB, utilizo <a href="https://www.color-hex.com/color/63c7b2">esta otra</a>.
+Ambas son muy útiles para elegir colores, al menos cuando el diseño no es precisamente
+tu especialidad.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">void setup() {
+  size(500, 200);
+  background(99, 199, 178);
+}
+</code></pre></div><p>Al correr el código, abrirá una ventana que lucirá más o menos así:</p>
+<p>&lt;img src=&ldquo;pantalla_verde.png&gt;</p>
 
     </div>
   </div>

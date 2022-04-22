@@ -55,7 +55,7 @@ void setup() {
 ```
 Al correr el código, abrirá una ventana que lucirá más o menos así:
 
-<img src="pantalla_verde.png">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/s9yk2jz/pantalla-verde.png" alt="pantalla-verde" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>imagenes e</a><br />
 
 ### Dibujar formas básicas
 
@@ -65,6 +65,37 @@ son las coordenadas del punto donde termina la línea. Fácil. Sólo hay que
 señalar un pequeño detalle: en Processing, el origen del sistema de coordenadas es la
 esquina superior izquierda de la ventana de la animación. Las coordenadas en **x**
 aumentan de izquierda a derecha, y las coordenadas en **y** aumentan de arriba hacia
-abajo, como se muestra en la imagen:
+abajo, como se muestra en la imagen de la derecha:
 
 <a href="https://processing.org/tutorials/coordinatesystemandshapes"><img src="https://processing.org/3e3972693a7deb9dbe15199c186d2917/drawing-03.svg"></a>
+
+El siguiente código dibuja una sencilla línea horizontal (observa que la coordenada **y**
+es igual para el punto final y para el inicial):
+
+```
+void draw() {
+  line(120, 80, 340, 80);
+}
+```
+
+Para dibujar una circunferencia, usamos la función `circle()`. Ésta recibe tres parámetros:
+las dos coordenadas del centro del círculo y su radio. Si queremos cambiar el color de relleno, usamos la
+función `fill()`, y si queremos engrosar el borde, usamos `strokeWeight()`. El siguiente código:
+
+```
+void setup() {
+  size(500, 300);
+  background(99, 199, 178);
+  strokeWeight(10);
+}
+
+void draw() {
+  line(120, 80, 340, 80);
+  fill(142, 108, 136);
+  circle(224, 184, 120);
+}
+```
+
+Dibuja algo como esto:
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/bJfSN3s/two-circles.png" alt="two-circles" border="0"></a>

@@ -55,4 +55,16 @@ void setup() {
 ```
 Al correr el código, abrirá una ventana que lucirá más o menos así:
 
-<img src="pantalla_verde.png>
+<img src="pantalla_verde.png">
+
+### Dibujar formas básicas
+
+Para dibujar una línea recta, usamos la función `line()`. Ésta recibe cuatro parámetros.
+Los dos primeros son las coordenadas del punto donde empieza la línea. Los dos últimos
+son las coordenadas del punto donde termina la línea. Fácil. Sólo hay que
+señalar un pequeño detalle: en Processing, el origen del sistema de coordenadas es la
+esquina superior izquierda de la ventana de la animación. Las coordenadas en **x**
+aumentan de izquierda a derecha, y las coordenadas en **y** aumentan de arriba hacia
+abajo, como se muestra en la imagen:
+
+<a href="https://processing.org/tutorials/coordinatesystemandshapes"><img src="https://processing.org/3e3972693a7deb9dbe15199c186d2917/drawing-03.svg"></a>

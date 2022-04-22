@@ -97,7 +97,7 @@ tu especialidad.</p>
   background(99, 199, 178);
 }
 </code></pre></div><p>Al correr el código, abrirá una ventana que lucirá más o menos así:</p>
-<img src="pantalla_verde.png">
+<p><a href="https://imgbb.com/"><img src="https://i.ibb.co/s9yk2jz/pantalla-verde.png" alt="pantalla-verde" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>imagenes e</a><br /></p>
 <h3 id="dibujar-formas-básicas">Dibujar formas básicas</h3>
 <p>Para dibujar una línea recta, usamos la función <code>line()</code>. Ésta recibe cuatro parámetros.
 Los dos primeros son las coordenadas del punto donde empieza la línea. Los dos últimos
@@ -105,8 +105,29 @@ son las coordenadas del punto donde termina la línea. Fácil. Sólo hay que
 señalar un pequeño detalle: en Processing, el origen del sistema de coordenadas es la
 esquina superior izquierda de la ventana de la animación. Las coordenadas en <strong>x</strong>
 aumentan de izquierda a derecha, y las coordenadas en <strong>y</strong> aumentan de arriba hacia
-abajo, como se muestra en la imagen:</p>
+abajo, como se muestra en la imagen de la derecha:</p>
 <p><a href="https://processing.org/tutorials/coordinatesystemandshapes"><img src="https://processing.org/3e3972693a7deb9dbe15199c186d2917/drawing-03.svg"></a></p>
+<p>El siguiente código dibuja una sencilla línea horizontal (observa que la coordenada <strong>y</strong>
+es igual para el punto final y para el inicial):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">void draw() {
+  line(120, 80, 340, 80);
+}
+</code></pre></div><p>Para dibujar una circunferencia, usamos la función <code>circle()</code>. Ésta recibe tres parámetros:
+las dos coordenadas del centro del círculo y su radio. Si queremos cambiar el color de relleno, usamos la
+función <code>fill()</code>, y si queremos engrosar el borde, usamos <code>strokeWeight()</code>. El siguiente código:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">void setup() {
+  size(500, 300);
+  background(99, 199, 178);
+  strokeWeight(10);
+}
+
+void draw() {
+  line(120, 80, 340, 80);
+  fill(142, 108, 136);
+  circle(224, 184, 120);
+}
+</code></pre></div><p>Dibuja algo como esto:</p>
+<p><a href="https://imgbb.com/"><img src="https://i.ibb.co/bJfSN3s/two-circles.png" alt="two-circles" border="0"></a></p>
 
     </div>
   </div>

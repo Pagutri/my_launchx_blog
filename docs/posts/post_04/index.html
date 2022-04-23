@@ -79,6 +79,29 @@ void draw() {
 media pantalla. Sabiendo que la pantalla mide 300 pixeles de alto y que 150 es la
 mitad de 300, bastaría escribir <code>circle(0, 150, 15)</code>. Eso es un ejemplo de una mala
 práctica llamada <a href="https://es.wikipedia.org/wiki/Hard_code">hard coding</a>.</p>
+<p>Para evitarla, podemos usar una variable que guarde el valor de las medidas de la pantalla.
+Processing lo hace automáticamente por nosotros. Una vez que llamamos a la función <code>size()</code>
+en <code>setup()</code>, la altura de la ventana se guarda en la variable <code>height</code> y su largo se
+guarda en <code>width</code>. Ya podemos usarlas.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">void setup() {
+  size(500, 300);
+}
+
+void draw() {
+  fill(0);
+  circle(0, height / 2, 15);
+}
+</code></pre></div><p><a href="https://imgbb.com/"><img src="https://i.ibb.co/H47WLmj/traslape.png" alt="traslape" border="0"></a></p>
+<p>Bien. La bolita ya está al inicio y a media pantalla, pero sigue habiendo un problema:
+Sólo vemos la mitad. Como vimos en el post anterior, la funcion <code>circle()</code> recibe las
+coordenadas del <strong>centro</strong> del círculo. El centro es lo que ubicamos en la coordenada 0.
+Yo quiero que el <strong>borde</strong> sea lo que toque la orilla de la pantalla. Para eso,
+creo una variable que guarde el radio de la bolita y la ubico a un radio de distancia
+de la orilla.</p>
+<p>Las variables en Processing pueden ser <strong>locales</strong> o <strong>globales</strong>. Si defino una variable
+en el cuerpo una función, sólo puedo utilizarla dentro de esa función. Es una variable
+local. Si la defino fuera de todas las funciones, entonces es global y puedo usarla en
+cualquier logar del programa.</p>
 
     </div>
   </div>

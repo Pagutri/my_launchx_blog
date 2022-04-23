@@ -18,6 +18,16 @@ No tiene sentido escribir un post que no pueda leerse y entenderse en diez minut
     </item>
     
     <item>
+      <title>Física en Animaciones Parte 2: Movimiento</title>
+      <link>https://pagutri.github.io/my_launchx_blog/posts/post_04/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pagutri.github.io/my_launchx_blog/posts/post_04/</guid>
+      <description>En física, nos gusta ir de lo más simple a lo más complicado. En movimiento, lo más más simple es una sola partícula (o bolita) moviéndose en línea recta a velocidad constante sin paredes ni fricción ni nada que le estorbe. En este post, vamos a usar Processing para simular este tipo de movimiento.
+En el post anterior expliqué cómo dibujar bolitas en Processing. Hoy vamos a arrancar con una bolita negra colocada al tuntún:</description>
+    </item>
+    
+    <item>
       <title>Cómo programar un péndulo doble con javascript</title>
       <link>https://pagutri.github.io/my_launchx_blog/posts/post_02/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>

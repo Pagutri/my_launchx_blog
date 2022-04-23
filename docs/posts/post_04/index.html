@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Física en Animaciones Parte 2: Movimiento - Bitácora de Viaje de Pagutri</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://pagutri.github.io/my_launchx_blog/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="../../css/style.min.4f4767d518839223786999cdb69fc7a63791220ecccd236bc732a5f998aaee2d.css">
+  
+
+  
+    <meta name="description" content="En esta segunda parte, explico cómo hacer que las figuras que dibujamos en la parte 1 se muevan."/>
+    <meta property="og:title" content="Física en Animaciones Parte 2: Movimiento"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://pagutri.github.io/my_launchx_blog/posts/post_04/"/>
+    
+    <meta property="og:description" content="En esta segunda parte, explico cómo hacer que las figuras que dibujamos en la parte 1 se muevan."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@entelector"/>
+    <meta name="twitter:creator" content="@entelector"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="https://pagutri.github.io/my_launchx_blog/">Bitácora de Viaje de Pagutri</a>
+  <div class="menu-main">
+    <ul>
+        
+        
+            <li class="menu-item-aboutme">
+                <a href="../../pages/about/">AboutMe</a>
+            </li>
+        
+            <li class="menu-item-posts">
+                <a href="../../posts/">Posts</a>
+            </li>
+        
+    </ul>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Física en Animaciones Parte 2: Movimiento<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p>En física, nos gusta ir de lo más simple a lo más complicado. En movimiento, lo
+más más simple es una sola partícula (o bolita) moviéndose en línea recta a
+velocidad constante sin paredes ni fricción ni nada que le estorbe. En este post,
+vamos a usar Processing para simular este tipo de movimiento.</p>
+<p>En <a href="https://pagutri.github.io/my_launchx_blog/posts/post_03/">el post anterior</a>
+expliqué cómo dibujar bolitas en Processing. Hoy vamos a arrancar con una
+bolita negra colocada al tuntún:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">void setup() {
+  size(500, 300);
+}
+
+void draw() {
+  fill(0);
+  circle(150, 100, 15);
+}
+</code></pre></div><p><a href="https://imgbb.com/"><img src="https://i.ibb.co/px9CC6f/tuntun.png" alt="tuntun" border="0"></a></p>
+<p>Pero no quiero colocarla al tuntún. Quiero que empiece pegada a la izquierda y a
+media pantalla. Sabiendo que la pantalla mide 300 pixeles de alto y que 150 es la
+mitad de 300, bastaría escribir <code>circle(0, 150, 15)</code>. Eso es un ejemplo de una mala
+práctica llamada <a href="https://es.wikipedia.org/wiki/Hard_code">hard coding</a>.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/entelector" title="twitter" target="_blank" rel="noopener">
+          <img src="../../images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/Pagutri" title="github" target="_blank" rel="noopener">
+          <img src="../../images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="../../js/bundle.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+</html>

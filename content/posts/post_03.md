@@ -81,7 +81,7 @@ void draw() {
 ```
 
 Para dibujar una circunferencia, usamos la función `circle()`. Ésta recibe tres parámetros:
-las dos coordenadas del centro del círculo y su radio. Si queremos cambiar el color de relleno, usamos la
+las dos coordenadas del centro del círculo y su diámetro. Si queremos cambiar el color de relleno, usamos la
 función `fill()`, y si queremos engrosar el borde, usamos `strokeWeight()`. El siguiente código:
 
 ```

@@ -29,7 +29,7 @@ void draw() {
 
 Pero no quiero colocarla al tuntún. Quiero que empiece pegada a la izquierda y a
 media pantalla. Sabiendo que la pantalla mide 300 pixeles de alto y que 150 es la
-mitad de 300, bastaría escribir `circle(0, 150, 15)`. Eso es un ejemplo de una mala
+mitad de 300, bastaría escribir `circle(0, 150, 16)`. Eso es un ejemplo de una mala
 práctica llamada [hard coding](https://es.wikipedia.org/wiki/Hard_code).
 
 Para evitarla, podemos usar una variable que guarde el valor de las medidas de la pantalla.

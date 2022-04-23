@@ -1,7 +1,8 @@
 ---
-title: "Aprendiendo Processing"
-date: 2022-04-22
-description: 'Cómo dibujar rayas y bolitas en Processing y hacer que se muevan.'
+title: "Física en Animaciones Parte 1: Básicos de Processing"
+date: 2022-04-23
+description: 'En esta primera parte, explico qué es Processing y cómo usarlo
+para dibujar figuras geométricas.'
 ---
 
 Hace unos años, como proyecto final de una materia de la universidad, hice la animación
@@ -11,21 +12,22 @@ post. Incluyendo cosas que *no* tienen nada que ver con programación.
 
 No tiene sentido escribir un post que no pueda leerse y entenderse en diez minutos, así
 que decidí hacer lo que mejor estoy aprendiendo gracias a NODE: modularizar el tema.
-La idea es explicar, en este primer post, cómo usar Processing. Después escribir uno
-donde explique cómo usarlo para simular sistemas físicos simples y, finalmente, uno
-donde explique cómo simular un péndulo doble, que usa unas ecuaciones bien salvajes.
+La idea es explicar, post a post, cómo pasar de un fenómeno físico a las fórmulas que lo
+describen, de las fórmulas al código y del código a la animación. En este primer post,
+explico cómo hacer dibujos en Processing. En el siguiente post, quiero explicar cómo
+hacer que esos dibujos se muevan.
 
 ### ¿Qué es Processing?
 
 Processing es una aplicación que te permite hacer sketches de animaciones 2D con
-código. Es gratuita y open source. Para aprender a instalarlo y usarlo, puedes ir a su
+código. Es gratuita y open source. Para aprender a instalarlo y correrlo, puedes ir a su
 [página oficial](https://processing.org/).
 
 ### Básicos de Processing
 
 Un programa de Processing tiene dos funciones principales: `setup()` y `draw()`. Tú las
 defines. La función `setup()` corre una sola vez, al iniciar el programa. Allí puedes
-definir el tamaño de la ventana donde podrás visualizar tu animación, por ejemplo.
+definir el tamaño y las características de la ventana donde quieres visualizar tu animación.
 Por su parte, `draw()` corre continuamente. ¿Por qué?
 
 Piensa en cómo funcionan las cámaras de video. En realidad son cámaras de fotos súper
@@ -42,7 +44,7 @@ aparecen como **2D Primitives**.
 
 El siguiente código abre una ventana de 500 pixeles de largo por 200 pixeles de alto
 y le pone un fondo color *Middle Blue Green*, que me gusta mucho. La paleta de colores
-que voy a usar aquí la tomé de [esta página](https://coolors.co/ccdbdc-80ced7-63c7b2-8e6c88-263d42).
+que voy a usar aquí la tomé de [esta página](https://coolors.co/ff9fb2-80ced7-63c7b2-f5e960-654f6f).
 Para pasar de código hex a RGB, utilizo [esta otra](https://www.color-hex.com/color/63c7b2).
 Ambas son muy útiles para elegir colores, al menos cuando el diseño no es precisamente
 tu especialidad.
@@ -86,12 +88,12 @@ función `fill()`, y si queremos engrosar el borde, usamos `strokeWeight()`. El 
 void setup() {
   size(500, 300);
   background(99, 199, 178);
-  strokeWeight(10);
 }
 
 void draw() {
-  line(120, 80, 340, 80);
   fill(142, 108, 136);
+  strokeWeight(10);
+  line(120, 80, 340, 80);
   circle(224, 184, 120);
   circle(150, 100, 80);
 }
@@ -100,3 +102,31 @@ void draw() {
 Dibuja algo como esto:
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/bJfSN3s/two-circles.png" alt="two-circles" border="0"></a>
+
+Las características que definí con `fill()` y `strokeWeight()` se aplican a todas las figuras que dibujé.
+Esto es porque, para cada nueva figura, Processing toma las últimas características definidas, leyendo de
+arriba hacia abajo. Por ejemplo, si queremos cambiar el borde y el relleno del circulo más pequeño, 
+podemos hacer algo como esto:
+
+```
+void setup() {
+  size(500, 300);
+  background(99, 199, 178);
+}
+
+void draw() {
+  fill(142, 108, 136);
+  strokeWeight(10);
+  line(120, 80, 340, 80);
+  circle(224, 184, 120);
+  fill(255, 159, 178);
+  strokeWeight(4);
+  circle(150, 100, 80);
+}
+```
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/HpVQ6M2/two-new-circles.png" alt="two-new-circles" border="0"></a>
+
+Listo. Esto es todo lo que necesitamos saber por ahora. Si quieres aprender más, da clic
+[aquí](https://processing.org/tutorials/) y explora los cursos y tutoriales que ofrece el equipo de
+Processing. ¡Nos vemos en el siguiente post!

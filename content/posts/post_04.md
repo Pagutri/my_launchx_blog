@@ -1,8 +1,8 @@
 ---
-title: "Física en Animaciones Parte 2: Movimiento"
+title: "Física en Animaciones Parte 2: Movimiento en una dimensión"
 date: 2022-04-23
 description: 'En esta segunda parte, explico cómo hacer que las figuras que
-dibujamos en la parte 1 se muevan.'
+dibujamos en la parte 1 se muevan en línea recta.'
 ---
 
 En física, nos gusta ir de lo más simple a lo más complicado. En movimiento, lo
@@ -21,7 +21,7 @@ void setup() {
 
 void draw() {
   fill(0);
-  circle(150, 100, 15);
+  circle(150, 100, 16);
 }
 ```
 
@@ -44,7 +44,7 @@ void setup() {
 
 void draw() {
   fill(0);
-  circle(0, height / 2, 15);
+  circle(0, height / 2, 16);
 }
 ```
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/H47WLmj/traslape.png" alt="traslape" border="0"></a>
@@ -59,7 +59,95 @@ de la orilla.
 Las variables en Processing pueden ser **locales** o **globales**. Si defino una variable
 en el cuerpo una función, sólo puedo utilizarla dentro de esa función. Es una variable
 local. Si la defino fuera de todas las funciones, entonces es global y puedo usarla en
-cualquier logar del programa.
+cualquier lugar del programa.
 
+```
+int radio = 8;
+int diametro = 2 * radio;
 
+void setup() {
+  size(500, 300);
+}
 
+void draw() {
+  fill(0);
+  circle(radio, height / 2, diametro);
+}
+```
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/vv223V8/no-traslape.png" alt="no-traslape" border="0"></a>
+
+Ahora viene lo bueno. ¿Cómo hacer que la bolita se mueva hacia la derecha? Pues haciendo
+que la coordenada en **x** aumente poco a poco. Por ejemplo, sumándole un pixel. Recordemos
+que la función `draw()` corre continuamente, y `setup()` una sola vez. Por comodidad, paso
+al inglés a partir de aquí.
+
+```
+int radius = 8;
+int diameter = 2 * radius;
+int x = radius;
+
+void setup() {
+  size(500, 300);
+  fill(0);
+  circle(x, height / 2, diameter);
+}
+
+void draw() {
+  x += 1;
+  circle(x, height / 2, diameter);
+}
+```
+Al correr el código anterior, la ventana de la animación termina viéndose así:
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/k6jwFDQ/estela.png" alt="estela" border="0"></a>
+
+Está bien si quieres ver la trayectoria que sigue la partícula, pero no es el caso.
+Esto se soluciona "borrando" todo lo que hay en la pantalla antes de dibujar un círculo
+en la siguiente posición, usando la función `background()`.
+
+```
+int radius = 8;
+int diameter = 2 * radius;
+int x = radius;
+
+void setup() {
+  size(500, 300);
+  fill(0);
+  circle(x, height / 2, diameter);
+}
+
+void draw() {
+  background(255);
+  x += 1;
+  circle(x, height / 2, diameter);
+}
+```
+
+¡Listo! La bolita se mueve. Y se aleja hasta que desaparece, porque no hemos
+definido restricciones como paredes. Eso será después. Sólo quiero señalar tres
+cosas antes de cerrar el post: La primera es que, si queremos que la bolita
+se mueva más rápido, hay que sumar más de un pixel cada vez. La segunda es que,
+si queremos que la bolita se mueva en sentido contrario, hay que restar pixeles
+en lugar de sumarlos. La última es que, si queremos que se mueva en el eje **y**
+en lugar del eje **x**, hay que modificar el código, algo así:
+
+```
+int radius = 8;
+int diameter = 2 * radius;
+int y = radius;
+
+void setup() {
+  size(300, 500);
+  fill(0);
+  circle(width / 2, y, diameter);
+}
+
+void draw() {
+  background(255);
+  y += 1;
+  circle(width / 2, y, diameter);
+}
+```
+
+¿Y si queremos que se mueva en diagonal? Lo veremos en el siguiente post.

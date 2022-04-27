@@ -6,7 +6,17 @@
     <description>Recent content in Launch X Bitácora de viaje on Bitácora de Viaje de Pagutri</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pagutri.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pagutri.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Física en Animaciones Parte 3: Movimiento en dos dimensiones</title>
+      <link>https://pagutri.github.io/my_launchx_blog/posts/post_05/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pagutri.github.io/my_launchx_blog/posts/post_05/</guid>
+      <description>El post anterior termina con una pregunta: ¿cómo hacer que la bolita se mueva en diagonal? La respuesta es: aumentando ambas coordenadas en lugar de una sola. El siguiente código lo hace:
+int radius = 8; int diameter = 2 * radius; int x = radius; int y = 0; void setup() { size(500, 500); fill(0); //y = height - radius; //Start on the left-bottom corner y = radius; //Start on the left-top corner circle(x, y, diameter); } void draw() { background(255); //Comment this line if you want to see the trayectory x += 1; //y -= 1; //Move upwards y += 1; //Move downwards circle(x, y, diameter); } Hay que tener cuidado al inicializar las variables x, y.</description>
+    </item>
+    
     <item>
       <title>Física en Animaciones Parte 1: Básicos de Processing</title>
       <link>https://pagutri.github.io/my_launchx_blog/posts/post_03/</link>
@@ -25,15 +35,6 @@ No tiene sentido escribir un post que no pueda leerse y entenderse en diez minut
       <guid>https://pagutri.github.io/my_launchx_blog/posts/post_04/</guid>
       <description>En física, nos gusta ir de lo más simple a lo más complicado. En movimiento, lo más más simple es una sola partícula (o bolita) moviéndose en línea recta a velocidad constante sin paredes ni fricción ni nada que le estorbe. En este post, vamos a usar Processing para simular este tipo de movimiento.
 En el post anterior expliqué cómo dibujar bolitas en Processing. Hoy vamos a arrancar con una bolita negra colocada al tuntún:</description>
-    </item>
-    
-    <item>
-      <title>Física en Animaciones Parte 3: Movimiento en dos dimensiones</title>
-      <link>https://pagutri.github.io/my_launchx_blog/posts/post_05/</link>
-      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://pagutri.github.io/my_launchx_blog/posts/post_05/</guid>
-      <description></description>
     </item>
     
     <item>

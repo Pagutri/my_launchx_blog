@@ -56,7 +56,7 @@ El tercer conejo viene de una reflexión. Aparece una cita de Hardy:
 "*A un matemático moderno no se le ocurriría que una colección de símbolos matemáticos debe tener un
 "significado" mientras no se le asigne uno por definición.*"
 
-Citando el libro:
+El libro continúa diciendo que:
 
 "*El hecho de que podamos asignar el significado que queramos a una cadena de caracteres
 matemáticos no significa que debamos hacerlo. En matemáticas, como en la vida, existen
@@ -72,5 +72,10 @@ comprometerse con esta definición no hacía surgir horribles contradicciones en
 Cuando terminó, había construido un marco que hacía el cálculo de Newton completamente
 riguroso.*"
 
-Perdónenem, pero el libro de Knuth
+Perdónenme, pero el libro de Knuth
 es una divertida perplejidad y no me atrevería a calificarla de innecesaria :)
+
+Esta entrada participa en la
+[Edición 13.2](https://www.gaussianos.com/edicion-13-2-johann-faulhaber-del-carnaval-de-matematicas-del-5-al-15-de-mayo-de-2021/)
+del Carnaval de Matemáticas, que en esta ocasión organiza
+[Gaussianos](https://www.gaussianos.com/).

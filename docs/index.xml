@@ -6,7 +6,16 @@
     <description>Recent content in Launch X Bitácora de viaje on Bitácora de Viaje de Pagutri</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pagutri.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pagutri.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cómo hacer una API básica con Express</title>
+      <link>https://pagutri.github.io/my_launchx_blog/posts/post_07/</link>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pagutri.github.io/my_launchx_blog/posts/post_07/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Física en Animaciones Parte 3: Movimiento en dos dimensiones</title>
       <link>https://pagutri.github.io/my_launchx_blog/posts/post_05/</link>

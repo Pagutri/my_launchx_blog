@@ -59,7 +59,50 @@
       
     </div>
     <div class="content">
-      
+      <p>Las APIs sirven para comunicar distintas partes de una aplicación de software. El code
+challenge de la semana 4 de la misión backend de Launch X consistió en crear una API
+muy sencilla que despliega en un servidor local la información contenida en un archivo json.
+El challenge fue resuelto mediante TDD: Test Driven Development. Aquí explico paso a paso
+cómo hacerlo desde la terminal de Linux.</p>
+<h3 id="instalar-dependencias">Instalar dependencias</h3>
+<p>Si no tienes instalado NODE, visita la <a href="https://nodejs.org/en/docs/">documentación</a> y continúa con las instrucciones.</p>
+<p>Una vez creada la carpeta que guardará nuestro proyecto, correr los siguiente comandos uno
+detrás de otro:</p>
+<table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Qué hace</th>
+<th>Para qué</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>npm init</code></td>
+<td>Indica que la carpeta contendrá un proyecto de NODE</td>
+<td>Para poder tener un proyecto de NODE</td>
+</tr>
+<tr>
+<td><code>npm install--save-dev jest</code></td>
+<td>Instala Jest</td>
+<td>Realizar pruebas de unidad</td>
+</tr>
+<tr>
+<td><code>npm install eslint --save-dev</code></td>
+<td>Instala Eslint</td>
+<td>Lintern para corregir el estilo del código</td>
+</tr>
+<tr>
+<td><code>npm install express --save</code></td>
+<td>Instala Express</td>
+<td>Montar el servidor</td>
+</tr>
+</tbody>
+</table>
+<p>Es MUY importante NO versionar el directorio <code>node_modules</code>. Crea un archivo <code>.gitignore</code> y agrégale la línea
+<code>**/node_modules</code>. Ya puedes hacer commit.</p>
+<p>Para automatizar los comandos</p>
+
     </div>
   </div>
 

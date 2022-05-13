@@ -1,6 +1,6 @@
 ---
 title: "Física en Animaciones Parte 3: Movimiento en dos dimensiones"
-date: 2022-04-27
+date: 2022-05-12
 description: 'En esta tercera parte, explico cómo hacer que la bolita que
 dibujamos en la parte 2 se mueva en diagonal y formando parábolas'
 ---
@@ -48,3 +48,12 @@ precisa, hay que explicar cómo se miden los **ángulos** y el **tiempo** en Pro
 
 ### Los ángulos en Processing
 
+En la [Parte 1](https://pagutri.github.io/my_launchx_blog/posts/post_03/) de este curso,
+coloqué esta figura que muestra la diferencia entre el sistema de coordenadas que se usa
+en la escuela y el que se usa en Processing:
+
+<a href="https://processing.org/tutorials/coordinatesystemandshapes"><img src="https://processing.org/3e3972693a7deb9dbe15199c186d2917/drawing-03.svg"></a>
+
+En la escuela, los ángulos positivos se miden desde el eje **x** hacia el eje **y**, ambos
+positivos. En Processing también, pero hay que recordar que el eje **y** positivo apunta
+hacia abajo, no hacia arriba:

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Cómo hacer una API básica con Express - Bitácora de Viaje de Pagutri</title>
+  <title>Intalación de dependencias para creación de una API con Node - Bitácora de Viaje de Pagutri</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="https://pagutri.github.io/my_launchx_blog/favicon.png">
 
@@ -15,7 +15,7 @@
 
   
     <meta name="description" content="Para el Code Challenge de la semana 4 de Launch X"/>
-    <meta property="og:title" content="Cómo hacer una API básica con Express"/>
+    <meta property="og:title" content="Intalación de dependencias para creación de una API con Node"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://pagutri.github.io/my_launchx_blog/posts/post_07/"/>
     
@@ -55,7 +55,7 @@
   <div class="blog">
     
     <div class="intro">
-      <h1>Cómo hacer una API básica con Express<span class="dot">.</span></h1>
+      <h1>Intalación de dependencias para creación de una API con Node<span class="dot">.</span></h1>
       
     </div>
     <div class="content">
@@ -63,7 +63,7 @@
 challenge de la semana 4 de la misión backend de Launch X consistió en crear una API
 muy sencilla que despliega en un servidor local la información contenida en un archivo json.
 El challenge fue resuelto mediante TDD: Test Driven Development. Aquí explico paso a paso
-cómo hacerlo desde la terminal de Linux.</p>
+cómo instalar las dependencias necesarias desde la terminal.</p>
 <h3 id="instalar-dependencias">Instalar dependencias</h3>
 <p>Si no tienes instalado NODE, visita la <a href="https://nodejs.org/en/docs/">documentación</a> y continúa con las instrucciones.</p>
 <p>Una vez creada la carpeta que guardará nuestro proyecto, correr los siguiente comandos uno
@@ -101,7 +101,45 @@ detrás de otro:</p>
 </table>
 <p>Es MUY importante NO versionar el directorio <code>node_modules</code>. Crea un archivo <code>.gitignore</code> y agrégale la línea
 <code>**/node_modules</code>. Ya puedes hacer commit.</p>
-<p>Para automatizar los comandos</p>
+<p>Para automatizar los comandos, hay que modificar el archivo <code>package.json</code> para que la parte de los
+scripts quede algo así:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">&#34;scripts&#34;: {
+    &#34;test&#34;: &#34;node ./node_modules/.bin/jest&#34;,
+    &#34;linter&#34;: &#34;node ./node_modules/eslint/bin/eslint.js .&#34;,
+    &#34;linter-fix&#34;: &#34;node ./node_modules/eslint/bin/eslint.js . --fix&#34;,
+    &#34;server&#34;: &#34;node ./app/lib/server.js&#34;
+  },
+</code></pre></div><p>Ahora puedes usar las dependencias con los siguientes comandos:</p>
+<table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Qué corre</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>npm test &lt;ruta/del/archivo.test.js&gt;</code></td>
+<td>Correr las pruebas</td>
+</tr>
+<tr>
+<td><code>npm run server</code></td>
+<td>Correr el servidor</td>
+</tr>
+<tr>
+<td><code>npm init @eslint/config</code></td>
+<td>Indicarle a Eslint qué tipo de código va a corregir</td>
+</tr>
+<tr>
+<td><code>npm run linter</code></td>
+<td>Para que Eslint identifique los errores del código</td>
+</tr>
+<tr>
+<td><code>npm run linter-fix</code></td>
+<td>Para que Eslint corrija los errores identificados con el comando anterior</td>
+</tr>
+</tbody>
+</table>
 
     </div>
   </div>

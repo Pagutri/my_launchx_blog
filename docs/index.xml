@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 13 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pagutri.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cómo hacer una API básica con Express</title>
+      <title>Intalación de dependencias para creación de una API con Node</title>
       <link>https://pagutri.github.io/my_launchx_blog/posts/post_07/</link>
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://pagutri.github.io/my_launchx_blog/posts/post_07/</guid>
-      <description>Las APIs sirven para comunicar distintas partes de una aplicación de software. El code challenge de la semana 4 de la misión backend de Launch X consistió en crear una API muy sencilla que despliega en un servidor local la información contenida en un archivo json. El challenge fue resuelto mediante TDD: Test Driven Development. Aquí explico paso a paso cómo hacerlo desde la terminal de Linux.
+      <description>Las APIs sirven para comunicar distintas partes de una aplicación de software. El code challenge de la semana 4 de la misión backend de Launch X consistió en crear una API muy sencilla que despliega en un servidor local la información contenida en un archivo json. El challenge fue resuelto mediante TDD: Test Driven Development. Aquí explico paso a paso cómo instalar las dependencias necesarias desde la terminal.
 Instalar dependencias Si no tienes instalado NODE, visita la documentación y continúa con las instrucciones.</description>
     </item>
     
